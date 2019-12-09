@@ -17,12 +17,12 @@ def main():
             'Clovenhoof', 'Clutterbuck', 'Cocktoasten')
 
     while True:
-        first_name = random.choice(first)
-        last_name = random.choice(last)
+        firstName = random.choice(first)
+        lastName = random.choice(last)
 
         print("\n\n")
         #Trick IDLE by using "fatal error" setting to print name in red!
-        print("{}{}".format(first_name, last_name), file=sys.stderr)
+        print("{}{}".format(firstName, lastName), file=sys.stderr)
         print("\n\n")
 
         try_again = input("\n\nTry again? (Press Enter else n to quit)\n ")
@@ -31,5 +31,5 @@ def main():
 
         input("\nPress Enter to exit.")
 
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
