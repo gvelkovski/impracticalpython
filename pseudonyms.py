@@ -20,7 +20,7 @@ def main():
         lastName = random.choice(last)
 
         print("\n\n")
-        #Trick IDLE by using "fatal error" setting to print name in red.
+        #Trick IDLE by using "fatal error" setting to print name in red!
         print("{}{}".format(firstName, lastName), file=sys.stderr)
         print("\n\n")
 
