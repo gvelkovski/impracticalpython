@@ -22,7 +22,7 @@ def main():
 
         print("\n\n")
         #Trick IDLE by using "fatal error" setting to print name in red!
-        print("{}{}".format(first_name, last_name), file=sys.stderr)
+        print("{} {}".format(first_name, last_name), file=sys.stderr)
         print("\n\n")
 
         try_again = input("\n\nTry again? (Press Enter else n to quit)\n ")
